@@ -1,0 +1,4 @@
+1 Abraham Moreno 20000.00
+2 Mane Moreno 0.00
+3 Jose Marin -3000.00
+4 Jilmar Rangel 5000.00

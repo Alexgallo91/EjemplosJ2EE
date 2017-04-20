@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/funcionesjs.js"></script>
+    </head>
+    <body>
+        <div>TODO write content</div>
+        <textarea id='htmlAIncrustar'></textarea>
+        
+        <form action="LeeParametros" method="post">
+        <input type="text" 
+               name="texto"
+               onkeyup="mayusculas(this);">
+        <br>
+        <input type="text" 
+               name="texto2"
+               style="text-transform: uppercase;">
+        <br>
+        <input type="button" 
+               value="Enviar" 
+               onclick="envia();">
+        
+        <br>
+        <input type="text" 
+               name="texto3"
+               style="text-transform: uppercase;"
+               onblur="validaNumero(this);">
+        
+        </form>
+    </body>
+</html>

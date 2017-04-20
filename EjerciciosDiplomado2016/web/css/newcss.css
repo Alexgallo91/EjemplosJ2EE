@@ -1,0 +1,28 @@
+*{
+    font-family: cursive;
+}
+body{
+    background-color: yellow;
+}
+.divAzul{
+    font-size: 1.5em; 
+    background-color: rgba(0,0,255,0.3);
+    width: 50%;
+    color: #ffffff;
+    height: 4em;
+    overflow: auto;
+    margin-top: 1em;
+    font-family: monospace;
+}
+.divTexto{
+    text-align: left;
+    word-spacing: 1em;
+    letter-spacing: 2px;
+    line-height: 2.5em;
+    color: brown;
+    text-decoration: underline;
+    text-transform: lowercase;
+    text-indent: 2em;
+    text-direction: rtl;
+    
+}
